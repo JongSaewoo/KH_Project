@@ -1,0 +1,236 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 100px;
+}
+
+.headline{
+  margin-top : 90px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+}
+
+
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 80px;
+  box-shadow: 2px 2px 20px rgba(212, 212, 212, 0.308);
+  padding-bottom : 135px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+.headline hr {
+  background-color:red;
+  width:25px;
+  border:2px solid red;
+  margin-bottom: 10px;
+}
+
+.container hr {
+  margin-top: 10px;
+    margin-bottom: 20px;
+    color: #999;
+    border: 0.5px solid #999;
+}
+
+input[type="text"] {
+ margin: 2px 0;
+    display: inline-block;
+    height: 32px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    background: #f5f5f5;
+    padding-left: 7px;
+    font-size: 13px;
+    color: #999;
+}
+
+
+.textarea-introduce {
+    margin-bottom: 20px;
+    height: 120px;
+    width: 225px;
+    resize: none;
+    border-style: none;
+    background: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    color: #999;
+    font-size: 13px;
+}
+
+.textarea-etc {
+
+	border-style: none;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 127px;
+    width: 425px;
+    resize: none;
+    padding: 10px;
+    color: #999;
+    font-size: 13px;
+}
+
+.label-first {
+  margin: 10px 0;
+    font-size: 80%;
+    display: block;
+}
+
+
+.image-box input[type="file"],
+.file-box input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.image-box label{
+	display: block;
+    font-size: 13px;
+    padding: 10px 20px;
+    width: 100px;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.file-box {
+  margin-top: 10px;
+}
+
+.file-box label {
+  font-size: 13px;
+    padding: 10px 20px;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.career-1 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 30%;
+}
+
+.career-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: inline-block;
+  width: 66%;
+}
+
+button {
+  display: block;
+  margin-top : 40px;
+  float:right;
+  font-size: 13px;
+  padding: 10px 20px;
+  width: 115px;
+  color: #999;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius : 5px;
+}
+
+/*   .file-box .upload-file{
+  display: inline-block;
+  height: 35px;
+  font-size:13px; 
+  padding: 0 10px;
+  vertical-align: middle;
+  background-color: #f5f5f5;}
+ */
+/*여기서부터 나영 추가*/
+
+.image-box,
+.introduce-area{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.introduce-area{
+    width : 230px;
+    margin-right: 20px;
+}
+
+.image-box{
+    width : 186px;
+    margin-left : 10px;
+    positon : relative;
+}
+
+.imgPreview {
+	
+	display: none;
+    justify-content: center;
+    align-items: center;
+	width : 130px;
+	height : 130px;
+	overflow : hidden;
+	border-radius: 50%;
+	margin: 8px auto;
+	
+}
+
+.upload-file {
+	
+	height: 35px;
+ 	font-size:13px;
+ 	padding: 0 10px;
+ 	color : #999;
+ 	vertical-align: middle;
+ 	background-color: #f5f5f5;
+ 	border: none;
+ 	border-radius: 0 5px 5px 0;
+ 	display: none;
+	
+}
+
+.x-box {
+	display:none;
+	justify-content : center;
+	position:absolute;
+	width : 16px;
+	height: 16px;
+	color : #999;
+	border : 2px solid #999;
+	border-radius : 50%;
+	margin-left: 61px;
+    margin-top: -57px;
+	
+}
+
+.x-box:hover {
+	
+	background:red;
+	border-color:red;
+}
+

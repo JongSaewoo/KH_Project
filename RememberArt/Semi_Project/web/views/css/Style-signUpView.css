@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*art registration*/
+.title {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title>h3 {
+	font-size: 20px;
+	padding: 50px;
+}
+
+/*section1*/
+.section1 {
+	margin: 0 auto;
+	width: 600px;
+	padding: 30px;
+	box-shadow: 2px 2px 20px rgba(212, 212, 212, 0.308);
+}
+
+.section1>h1 {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	padding: 0;
+	padding-bottom: 70px;
+}
+
+.container {
+	margin: 100px;
+}
+
+.nomal-text {
+	height: 25px;
+	width: 280px;
+	float: right;
+}
+
+.labelfirst {
+	font-size: 12px;
+}
+
+span {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	color: gray;
+	margin: 5px 15px;
+}
+
+hr {
+	width: 100%;
+}
+
+.artregi-infobox {
+	padding: 20px;
+	padding-left: 80px;
+	padding-right: 120px;
+}
+
+.info-box1, .info-box2, .info-box3, .info-box4, .info-box5, .info-box6,
+	.info-box7 {
+	padding: 10px 0;
+}
+
+button {
+	display: block;
+	float: right;
+	font-size: 13px;
+	width: 30%;
+	color: #999;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #fdfdfd;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+}
+
+.tag {
+	margin-left: 62px;
+	height: 25px;
+	width: 205px;
+}
+
+.select-thema {
+	height: 30px;
+	width: 475px;
+	float: right;
+	margin: 0px;
+}
+
+.check-area {
+	margin-left: 57px;
+	vertical-align: top;
+	display: inline-block;
+	font-size: 13px;
+}
+
+input[type="checkbox"] {
+	margin: 5px 5px;
+}
+
+.info-box8 {
+
+}
+
+
+textarea {
+  width: 400px;
+  height: 150px;
+  resize: none;
+  "text-align:left;
+}
+
+.section3 {
+	padding: 0;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.submit-bt {
+	display: inline-block;
+    font-size: 13px;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    /* margin-top: -18px; */
+    /* margin-left: 30px; */
+    
+}
+
+.submit-box {
+	
+}

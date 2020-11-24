@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  /* headline*/
+/* 
+  
+  .headline {
+    margin: 50px 0;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .headline hr {
+    display: inline-block;
+    background-color:red;
+    width:25px;
+    border:2px solid red;
+    margin-bottom: 10px;
+  }
+  
+  
+  .headline-text,
+  .artist-img,
+  .artist-button {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .headline-subbox {
+    display: block;
+    float: right;
+    margin-right: 90px;
+  }
+  
+  .artist-button {
+    height: 85px;
+    width : 120px;
+    float: right;
+  }
+  
+  .headline-text {
+    margin-left: 90px;
+    float: left;
+    width: 70%;
+    top : 50%;
+    vertical-align: middle;
+  }
+  
+  .artist-button button {
+    display: block;
+    font-size: 11px;
+    width: 100%;
+    padding: 11px 20px;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+  }
+   */
+  
+  
+  
+  /*second-menu*/
+  
+  .second-menu {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .second-menu > ul {
+    padding : 20px 20px;
+    background-color: rgb(211, 211, 211);
+  }
+  
+  .second-menu > ul > a {
+    color : gray;
+  }
+  
+  .second-menu > ul > li {
+    padding : 0 4%;
+    font-size: 13px;
+    display: inline-block;
+    
+  }
+  
+  .second-menu li:hover a {
+    color : #e20400;
+    font-weight: bold;
+  }
+  
+  .second-menu > ul > li > a {
+    color : rgb(0, 0, 0); 
+    display: block;
+    text-decoration: none;
+  }
+  
+  
+  /*check refund*/
+  
+  .title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title > h3 {
+    font-size: 20px;
+    padding : 50px;
+  }
+
+  .container {
+      width: 70%;
+      margin : 0 auto;
+      padding : 20px;
+  }
+
+  input[type="text"] {
+    display: inline-block;
+    height: 37px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  input[type="date"] {
+    display: inline-block;
+    height: 37px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+    }
+    
+    .bar2 button {
+    display: inline-block;
+    font-size: 11px;
+    width: 55px;
+    padding: 10px 5px;
+    color: #999;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    }
+
+    button {
+    display: inline-block;
+    font-size: 12px;
+    width: 55px;
+    padding: 10px 5px;
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    text-align: center;
+    background-color: #9c9c9c;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    }
+
+    .search-bar {
+        text-align: center;
+        width: 100%;
+        margin : 0 auto;
+    }
+
+    table {
+        margin-top: 12px;
+        width: 100%;
+        border-top: 1px solid #444444;
+        border-collapse: collapse;
+      }
+
+      th, td {
+        text-align: center;
+        border-bottom: 1px solid #444444;
+        padding: 10px;
+      }
+
+      td > img {
+          width: 100px;
+          height: 100px;
+      }
+
+      .order-info-bt,
+      .refund-bt {
+        display: inline-block;
+        font-size: 13px;
+        padding: 10px 20px;
+        width: 150px;
+        color: rgb(255, 255, 255);
+        vertical-align: middle;
+        text-align: center;
+        background-color: #9c9c9c;
+        cursor: pointer;
+        border: 1px solid #ebebeb;
+      }
+
+      .table-headline {
+          display: block;
+          padding: 30px 0;
+      }
+
+      .table-headline > div {
+          display: inline-block;
+          vertical-align: middle;
+      }
+
+      .table-headline > .button {
+        display: inline-block;
+        float : right;
+      }
+
+      .refund-table {
+          margin-top: 50px;
+      }
+      
+      .page_1 {
+      display : inline-block;
+      margin : 0 auto;
+      }
+
+
+
+    
+	input[type=radio]{
+                display: none;
+                margin: 10px;
+                background: gray;
+            }
+            
+
+            
+            
+            
+      /* 페이징 처리 */
+      
+      .p-parents {
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+ 	 margin: 0 auto;
+ 	 }
+      
+       .pppp {
+        display: flex;
+        text-align: center;
+        margin : 50px auto;
+        background: rgb(255, 255, 255);
+        height: 36px;
+        border : 1px solid black;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+      .pppp > ol > li:first-child {
+       border-left : 1px solid black;
+      }
+
+      .pppp > a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 12px;
+        font-size: 13px;
+        font-weight: 500;
+        color:#9c9c9c;
+        text-decoration: none;
+      }
+
+      .pppp > ol {
+        display: inline-flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .pppp > ol > li {
+        display: inline-flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+        border-right: 1px solid;
+        vertical-align: middle;
+        list-style: none;
+        width: 36px;
+        height: 34px;
+        text-decoration: none;
+      }
+      
+  
+     
+     .page-list1 {
+     background-color:#c82c1f;
+     }
+     
+     .page-cur {
+     font-size : 14px;
+     background:none;
+   	 color: white;
+     padding : 0;
+     border-style : none;
+
+     }
+     
+     .page-nocur {
+     font-size: 14px;
+     background:none;
+   	 color: #c82c1f;
+     padding : 0;
+     border-style : none;
+     
+     }
+     
+     .page-a:hover {
+     color: black;
+     text-decoration:none;
+     }
+
+
+
+
+ 
